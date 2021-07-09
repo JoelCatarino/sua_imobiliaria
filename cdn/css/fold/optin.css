@@ -1,0 +1,26 @@
+.main_optin {
+  text-align: center;
+}
+.main_optin h1 {
+  display: block;
+  text-align: center;
+  font-size: 1.8em;
+  margin-bottom: 20px;
+  margin: 0 auto;
+}
+.main_optin p {
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.main_optin form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.main_optin input {
+  margin-bottom: 10px;
+}
+.main_optin button {
+  width: 100%;
+}
+
+/*# sourceMappingURL=optin.css.map */
