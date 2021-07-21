@@ -1,11 +1,10 @@
-<div class="main_slide">
+<div class="main_slide d-none d-md-block">
     <div class="container" style="height: 100%;">
         <div class="row align-items-center" style="height: 100%;">
-            <!-- style="height: 100%;"  -->
             <div class="col-8">
-                <p class="main_slide_content">Encontre o <b>imóvel ideal</b> <br> para você e <b>sua família</b><br>morar na praia!</p>
-                <a href="#" class="btn btn-front btn-lg">Quero alugar</a>
-                <a href="#" class="btn btn-front btn-lg">Quero alugar</a>
+                <p class="main_slide_content">Find the <b>ideal property</b> <br> for you and <b>your family</b><br>to live on the beach!</p>
+                <a href="#" class="btn btn-front btn-lg">I want to <b>rent</b></a>
+                <a href="#" class="btn btn-front btn-lg">I want to <b>buy</b></a>
             </div>
         </div>
     </div>
@@ -14,69 +13,69 @@
 <div class="main_filter">
     <div class="container my-5">
         <div class="row">
-            <form action="" class="form_inline w-100 d-flex">
+            <form action="" class="form-inline w-100">
 
-                <div class="form-group col-3">
-                    <label for="search" class="mb-2"><b>Comprar ou Alugar?</b></label>
-                    <select name="search" id="search" class="selectpicker" title="Escolha...">
-                        <option value="">Comprar</option>
-                        <option value="">Alugar</option>
+                <div class="form-group col-12 col-sm-6 col-lg-3">
+                    <label for="search" class="mb-2"><b>Buy or Rent?</b></label>
+                    <select name="search" id="search" class="selectpicker" title="Choice...">
+                        <option value="">Buy</option>
+                        <option value="">Rent</option>
                     </select>
                 </div>
 
-                <div class="form-group col-3">
-                    <label for="search" class="mb-2"><b>Comprar ou Alugar?</b></label>
-                    <select name="search" id="search" class="selectpicker" title="Escolha...">
-                        <option value="">Comprar</option>
-                        <option value="">Alugar</option>
+                <div class="form-group col-12 col-sm-6 col-lg-3">
+                    <label for="search" class="mb-2"><b>Buy or Rent?</b></label>
+                    <select name="search" id="search" class="selectpicker" title="Choice...">
+                        <option value="">Buy</option>
+                        <option value="">Rent</option>
                     </select>
                 </div>
 
-                <div class="form-group col-3">
-                    <label for="search" class="mb-2"><b>Comprar ou Alugar?</b></label>
-                    <select name="search" id="search" class="selectpicker" title="Escolha...">
-                        <option value="">Comprar</option>
-                        <option value="">Alugar</option>
+                <div class="form-group col-12 col-sm-6 col-lg-3">
+                    <label for="search" class="mb-2"><b>Buy or Rent?</b></label>
+                    <select name="search" id="search" class="selectpicker" title="Choice...">
+                        <option value="">Buy</option>
+                        <option value="">Rent</option>
                     </select>
                 </div>
 
-                <div class="form-group col-3">
-                    <label for="search" class="mb-2"><b>Comprar ou Alugar?</b></label>
-                    <select name="search" id="search" class="selectpicker" title="Escolha...">
-                        <option value="">Comprar</option>
-                        <option value="">Alugar</option>
+                <div class="form-group col-12 col-sm-6 col-lg-3">
+                    <label for="search" class="mb-2"><b>Buy or Rent?</b></label>
+                    <select name="search" id="search" class="selectpicker" title="Choice...">
+                        <option value="">Buy</option>
+                        <option value="">Rent</option>
                     </select>
                 </div>
 
                 <div style="display: none;">
 
                     <div class="form-group col-3">
-                        <label for="search" class="mb-2"><b>Comprar ou Alugar?</b></label>
-                        <select name="search" id="search" class="selectpicker" title="Escolha...">
+                        <label for="search" class="mb-2"><b>Buy or Rent?</b></label>
+                        <select name="search" id="search" class="selectpicker" title="Choice...">
                             <option value="">Comprar</option>
                             <option value="">Alugar</option>
                         </select>
                     </div>
 
                     <div class="form-group col-3">
-                        <label for="search" class="mb-2"><b>Comprar ou Alugar?</b></label>
-                        <select name="search" id="search" class="selectpicker" title="Escolha...">
+                        <label for="search" class="mb-2"><b>Buy or Rent?</b></label>
+                        <select name="search" id="search" class="selectpicker" title="Choice...">
                             <option value="">Comprar</option>
                             <option value="">Alugar</option>
                         </select>
                     </div>
 
                     <div class="form-group col-3">
-                        <label for="search" class="mb-2"><b>Comprar ou Alugar?</b></label>
-                        <select name="search" id="search" class="selectpicker" title="Escolha...">
+                        <label for="search" class="mb-2"><b>Buy or Rent?</b></label>
+                        <select name="search" id="search" class="selectpicker" title="Choice...">
                             <option value="">Comprar</option>
                             <option value="">Alugar</option>
                         </select>
                     </div>
 
                     <div class="form-group col-3">
-                        <label for="search" class="mb-2"><b>Comprar ou Alugar?</b></label>
-                        <select name="search" id="search" class="selectpicker" title="Escolha...">
+                        <label for="search" class="mb-2"><b>Buy or Rent?</b></label>
+                        <select name="search" id="search" class="selectpicker" title="Choice...">
                             <option value="">Comprar</option>
                             <option value="">Alugar</option>
                         </select>
@@ -84,15 +83,17 @@
 
                 </div>
 
+
+
+                <div class="col-6 mt-3">
+                    <a href="#" class="text-front">Filtro &darr;</a>
+                </div>
+
+                <div class="col-6 mt-3 text-right">
+                    <button href="#" class="btn btn-front icon-search">Pesquisar</button>
+                </div>
+
             </form>
-
-            <div class="col-6 mt-3">
-                <a href="#" class="text-front">Filtro &darr;</a>
-            </div>
-
-            <div class="col-6 mt-3 text-right">
-                <button href="#" class="btn btn-front icon-search">Pesquisar</button>
-            </div>
 
         </div>
     </div>
@@ -101,56 +102,56 @@
 <section class="main_list_group py-5 bg-light">
     <div class="container">
         <div class="p-4 border-bottom border-front">
-            <h1 class="text-center">Ambiente no seu <span class="text-front"><b>estilo</b></span></h1>
-            <p class="text-center text-muted h4">Encontre um imóvel com a experiência que vc quer viver</p>
+            <h1 class="text-center">Environment in your <span class="text-front"><b>Style</b></span></h1>
+            <p class="text-center text-muted h4">Find a property with the experience you want to live</p>
         </div>
 
         <div class="main_list_group_items mt-5 d-flex justify_content_around row">
 
-            <article class="main_list_group_items_item col-4 mb-4">
+            <article class="main_list_group_items_item col-12 col-md-6 col-lg-4 mb-4">
                 <a href="#">
                     <div class="d-flex align-items-center justify-content-center" style="background: url('assets/images/home/cobertura_oto_1.jpg') no-repeat; background-size: cover;">
-                        <h2>Cobertura</h2>
+                        <h2>Roof</h2>
                     </div>
                 </a>
             </article>
 
-            <article class="main_list_group_items_item col-4 mb-4">
+            <article class="main_list_group_items_item col-12 col-md-6 col-lg-4 mb-4">
                 <a href="#">
                     <div class="d-flex align-items-center justify-content-center" style="background: url('assets/images/home/alto_padrao_1.jpg') no-repeat; background-size: cover;">
-                        <h2>Alto Padrao</h2>
+                        <h2>High standard</h2>
                     </div>
                 </a>
             </article>
 
-            <article class="main_list_group_items_item col-4 mb-4">
+            <article class="main_list_group_items_item col-12 col-md-6 col-lg-4 mb-4">
                 <a href="#">
                     <div class="d-flex align-items-center justify-content-center" style="background: url('assets/images/home/de_frente_pro_mar_original.jpg') no-repeat; background-size: cover;">
-                        <h2>De frente p mar</h2>
+                        <h2>Facing the sea</h2>
                     </div>
                 </a>
             </article>
 
-            <article class="main_list_group_items_item col-4 mb-4">
+            <article class="main_list_group_items_item col-12 col-md-6 col-lg-4 mb-4">
                 <a href="#">
                     <div class="d-flex align-items-center justify-content-center" style="background: url('assets/images/home/compacto_1.jpg') no-repeat; background-size: cover;">
-                        <h2>Condominio</h2>
+                        <h2>Condominium</h2>
                     </div>
                 </a>
             </article>
 
-            <article class="main_list_group_items_item col-4 mb-4">
+            <article class="main_list_group_items_item col-12 col-md-6 col-lg-4 mb-4">
                 <a href="#">
                     <div class="d-flex align-items-center justify-content-center" style="background: url('assets/images/home/cobertura_oto_1.jpg') no-repeat; background-size: cover;">
-                        <h2>fechado</h2>
+                        <h2>sealed</h2>
                     </div>
                 </a>
             </article>
 
-            <article class="main_list_group_items_item col-4 mb-4">
+            <article class="main_list_group_items_item col-12 col-md-6 col-lg-4 mb-4">
                 <a href="#">
                     <div class="d-flex align-items-center justify-content-center" style="background: url('assets/images/home/sala_comercial_original.jpg') no-repeat; background-size: cover;">
-                        <h2>Lojas e Salas</h2>
+                        <h2>Stores and Rooms</h2>
                     </div>
                 </a>
             </article>
@@ -164,13 +165,13 @@
     <div class="container">
 
         <div class="mb-5 d-flex justify-content-between align-items-center border-bottom border-front">
-            <h1 class="text-front">À venda</h1>
-            <a href="#" class="text-front">Ver mais</a>
+            <h1 class="text-front">For sale</h1>
+            <a href="#" class="text-front">See more</a>
         </div>
 
         <div class="row">
 
-            <article class="col-4">
+            <article class="col-12 col-md-6 col-lg-4 mb-4">
 
                 <div class="card main_properties_item">
 
@@ -211,7 +212,7 @@
 
             </article>
 
-            <article class="col-4">
+            <article class="col-12 col-md-6 col-lg-4 mb-4">
 
                 <div class="card main_properties_item">
 
@@ -252,7 +253,7 @@
 
             </article>
 
-            <article class="col-4">
+            <article class="col-12 col-md-6 col-lg-4 mb-4">
 
                 <div class="card main_properties_item">
 
@@ -303,13 +304,13 @@
     <div class="container">
 
         <div class="mb-5 d-flex justify-content-between align-items-center border-bottom border-front">
-            <h1 class="text-front">Para Alugar</h1>
-            <a href="#" class="text-front">Ver mais</a>
+            <h1 class="text-front">For rent</h1>
+            <a href="#" class="text-front">See more</a>
         </div>
 
         <div class="row">
 
-            <article class="col-4">
+            <article class="col-12 col-md-6 col-lg-4 mb-4">
 
                 <div class="card main_properties_item">
 
@@ -350,7 +351,7 @@
 
             </article>
 
-            <article class="col-4">
+            <article class="col-12 col-md-6 col-lg-4 mb-4">
 
                 <div class="card main_properties_item">
 
@@ -391,7 +392,7 @@
 
             </article>
 
-            <article class="col-4">
+            <article class="col-12 col-md-6 col-lg-4 mb-4">
 
                 <div class="card main_properties_item">
 

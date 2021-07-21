@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="shortcut icon" href="assets/images/icons/util-area.png">
     <title>Sua Imobiliáira</title>
 
@@ -55,11 +55,11 @@
 
                 <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Home</a></li>
-                        <li class="nav-item"><a class="nav-link active text-front" aria-current="page" href="#">Destaque</a></li>
-                        <li class="nav-item"> <a class="nav-link active" aria-current="page" href="#">Alugar</a></li>
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Comprar</a></li>
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Contato</a></li>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.php?app=home">Home</a></li>
+                        <li class="nav-item"><a class="nav-link active text-front" aria-current="page" href="index.php?app=property">Spotlight</a></li>
+                        <li class="nav-item"> <a class="nav-link active" aria-current="page" href="index.php?app=contato">Rent</a></li>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.php?app=filtro">Buy</a></li>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.php?app=contato">Contact</a></li>
                     </ul>
                 </div>
 
@@ -84,9 +84,9 @@
     <article class="main_optin bg-dark text-white py-5">
         <div class="container">
             <div class="row mx-auto" style="max-width: 600px;">
-                <h1 class="bceta mb-3">Quer ficar por dentro das novidades?</h1>
+                <h1 class="bceta mb-3">Want to stay on top of the news?</h1>
 
-                <p>Deixe o seu melhor e-mail nos campos abaixo e nós vamos lhe <br> informar sobre os melhores negócios e todos os lancamentos do sul da ilha</p>
+                <p>Leave your best e-mail in the fields below and we will inform you about the best deals and all the launches in the south of the island</p>
 
                 <form action="">
                     <input type="text" class="form-control" placeholder="Digite seu nome" size="50">
@@ -102,24 +102,25 @@
             <div class="row justify-content-around text-muted">
                 
                 <div class="col-12 col-md-3 col-lg-3">
-                    <h1 class="pb-2">Navegue <span class="text-front">Aqui</span></h1>
+                    <h1 class="pb-2">Browse <span class="text-front">Here</span></h1>
                     <ul>
                         <li><a href="">home</a></li>
-                        <li><a href="" class="text-front">Destaque</a></li>
-                        <li><a href="">Alugar</a></li>
-                        <li><a href="">Comprar</a></li>
-                        <li><a href="">Contato</a></li>
+                        <li><a href="" class="text-front">Spotlight</a></li>
+                        <li><a href="">Rent</a></li>
+                        <li><a href="">Buy</a></li>
+                        <li><a href="">Contact</a></li>
                     </ul>
                 </div>
 
                 <div class="col-12 col-md-9 col-lg-6">
-                    <h1 class="pd2">Nos <span class="text-front">Conheca! </span></h1>
-                    <p>Nossa maior satisfacao é lhe ajudar a encontrar seu imóvel dos sonhos nos bairros do Sul da Ilha da Mariga, em Florianópolis.</p>
+                    <h1 class="pd2">Meet <span class="text-front">Us! </span></h1>
+                    <p>Our greatest satisfaction is to help you find your dream property in the southern neighborhoods of Ilha da Mariga, in Florianópolis.</p>
 
-                    <h1 class="pb-2">Quer <span class="text-front">Investir</span></h1>
+                    <h1 class="pb-2">Do you Want to <span class="text-front">See?</span></h1>
+                    <p>Get in touch with our team and we will always inform you about the best deals</p>
                 </div>
 
-                <div class="col-12 col-md-12  col-lg-3 text-center">
+                <div class="col-12 col-md-12 col-lg-3 text-center">
                     <button class="btn btn-front icon-facebook icon-notext"></button>
                     <button class="btn btn-front icon-twitter icon-notext"></button>
                     <button class="btn btn-front icon-instagram icon-notext"></button>
@@ -134,7 +135,7 @@
             <div class="row">
                 <div class="col-12">
                 <p class="mb-0">Imobiliária | CRECI 1234 | Av. Pequeno Principe, 0 Campeche - Florianópolis/SC</p>
-                <p class="mb-0">Todos os Direitos Reservados - Up Inside Treinamentos @</p>
+                <p class="mb-0">All Rights Reserved - Up Inside Treinamentos @</p>
                 </div>
             </div>
         </div>
